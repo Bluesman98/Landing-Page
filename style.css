@@ -12,8 +12,7 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
-  
-  padding: 20px 200px 100px 200px; 
+  padding: 0 200px 100px 200px; 
 }
 
 .header .top{
@@ -22,6 +21,7 @@ body {
   align-items: center;
   flex: 1;
   margin-bottom: auto;
+  padding-bottom: 100px;
 }
 
 .header ul{
@@ -42,6 +42,52 @@ a{
   color: #F9FAF8
 }
 
-.box{
+.box1{
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  
+
+  
 }
+
+.box2{
+  display: flex;
+  flex-direction: column;
+  justify-content: f;
+  align-items: flex-start;
+  max-width: 500px;
+  gap: 10px;
+  
+}
+
+.box2 button{
+  color: #E5e7EB;
+  background-color: #0099ff ;
+  margin-top: 15px;
+  font-size: 18px;
+  border-radius: 25px;
+  
+}
+
+.hero-main{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+
+}
+
+div img{
+width: 500px;
+height: 200px;
+object-fit: fill;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
