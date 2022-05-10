@@ -197,3 +197,14 @@ a{
   padding: 6px 14px;
   height: 30px; 
 }
+
+.footer {
+  background-color: #1F2937;
+  color: #E5e7EB;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
